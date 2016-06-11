@@ -59,7 +59,7 @@ I18N.zh = {
             "Sign in": "登录",
             "Sign up": "注册",
 
-            "Search GitHub": "GitHub 一下，您就知道",
+            "Search GitHub": "GitHub 一下,你就知道",
             "This repository": "当前仓库",
             "Search": "搜索",
 
@@ -69,8 +69,8 @@ I18N.zh = {
             "Gist": "代码片段",
             "Your dashboard": "返回首页",
 
-            "You have no unread notifications": "您没有未读通知",
-            "You have unread notifications": "您有未读通知",
+            "You have no unread notifications": "当前没有未读通知",
+            "You have unread notifications": "新未读通知",
             "Create new…": "新建…",
             "View profile and more": "查看更多信息",
 
@@ -79,8 +79,8 @@ I18N.zh = {
             "Import repository": "导入仓库",
             "New issue": "新建问题",
 
-            "Signed in as": "您好",
-            "Your profile": "您的主页",
+            "Signed in as": "你好",
+            "Your profile": "我的首页",
             "Your stars": "点赞的项目",
             "Explore": "探索",
             "Integrations": "集成",
