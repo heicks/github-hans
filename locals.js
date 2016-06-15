@@ -11,7 +11,7 @@ I18N.conf = {
      *
      * 通知页面 /notifications
      * 关注页面 /watching
-     * 点赞页面 /stars
+     * 加星页面 /stars
      * 问题页面 /issues
      * 拉取请求 /pulls
      * 搜索页面 /search
@@ -24,7 +24,7 @@ I18N.conf = {
     /**
      * 匹配 url 页面的正则
      *
-     * 代码片段页面 gist
+     * 代码段页面 gist
      */
     rePageUrl: /(gist)\.github.com/,
 
@@ -66,7 +66,7 @@ I18N.zh = {
             "Pull Requests": "拉取请求",
             "Pull requests": "拉取请求",
             "Issues": "问题",
-            "Gist": "代码片段",
+            "Gist": "代码段",
             "Your dashboard": "返回首页",
 
             "You have no unread notifications": "当前没有未读通知",
@@ -81,7 +81,7 @@ I18N.zh = {
 
             "Signed in as": "你好",
             "Your profile": "我的首页",
-            "Your stars": "点赞的项目",
+            "Your stars": "加星的项目",
             "Explore": "探索",
             "Integrations": "集成",
             "Help": "帮助",
@@ -90,7 +90,7 @@ I18N.zh = {
 
             "Showcases": "展柜",
             "Trending": "趋势",
-            "Stars": "已赞",
+            "Stars": "已加星",
 
 
             "Previous": "上一页",
@@ -153,18 +153,18 @@ I18N.zh = {
             "Unfollow": "取消关注",
             "Watch": "关注",
             "Unwatch": "取消关注",
-            "Star": "点赞",
-            "Unstar": "取消点赞",
+            "Star": "加星",
+            "Unstar": "取消加星",
             "Fork": "派生",
 
             // 邮箱验证提示
-            "Please verify your email address to access all of GitHub's features.": "请验证您的电子邮件地址以便开启所有 GitHub 功能。",
-            "Configure email settings": "修改电子邮件设置",
-            "Your email was verified.": "您的邮件地址验证成功！",
+            "Please verify your email address to access all of GitHub's features.": "请验证你的邮箱地址以便开启所有 GitHub 功能。",
+            "Configure email settings": "修改邮箱设置",
+            "Your email was verified.": "邮箱地址验证成功！",
         },
         "regexp": [ // 正则翻译 (公共区域正则会二次调用翻译，为了弥补部分翻译的情况)
             // 仓库删除提示
-            [/Your repository "([^"]+)"was successfully deleted\./, "您的 \"$1\"仓库已被成功删除。"],
+            [/Your repository "([^"]+)"was successfully deleted\./, " \"$1\"仓库已被成功删除。"],
             // 邮箱验证提示
             [/An email containing verification instructions was sent to (.+)\./, "验证邮件已发送到 $1。"],
 
@@ -218,7 +218,7 @@ I18N.zh = {
         "static": { // 静态翻译
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
-            "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，您将创建一个仓库，开始一个分支，",
+            "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，你将创建一个仓库，开始一个分支，",
             "write comments, and open a pull request.": "写评论，并创建一个拉取请求。(教程内容就不翻译了...)",
             "Let's get started!": "让我们开始吧！",
             "Hide this notice forever": "永久的隐藏该信息",
@@ -229,14 +229,14 @@ I18N.zh = {
             "Browse interesting repositories": "浏览有趣资料库",
             "on Twitter": "在 Twitter 上",
 
-            "You don’t have any repositories yet!": "您目前还没有任何仓库！",
-            "Create your first repository": "创建您的第一个仓库",
+            "You don’t have any repositories yet!": "你目前还没有任何仓库！",
+            "Create your first repository": "创建我的第一个仓库",
             "or": "或者",
             "learn more about Git and GitHub": "学习更多关于 Git 和 GitHub 知识",
 
             // 已有仓库的项目
-            "Repositories you contribute to": "您贡献过的仓库",
-            "Your repositories": "您的仓库",
+            "Repositories you contribute to": "我贡献过的仓库",
+            "Your repositories": "我的仓库",
             "Find a repository…": "搜索仓库…",
             "All": "全部",
             "Public": "公共",
@@ -249,7 +249,7 @@ I18N.zh = {
             "new broadcasts": "条新公告",
 
             // 动态 状态词
-            "starred": "赞了",
+            "starred": "加星了",
             "forked": "派生了",
             "forked from": "派生至",
             "created repository": "创建了仓库",
@@ -272,12 +272,12 @@ I18N.zh = {
             "Create organization": "创建组织",
 
             // 首次加入组织通知
-            "You’ve been added to the": "您已经被添加到",
+            "You’ve been added to the": "你已经被添加到",
             "organization!": "组织！",
             "Here are some quick tips for a first-time organization member.": "以下是首次加入组织的一些提示。",
-            "Use the switch context button in the upper left corner of this page to switch between your personal context (": "使用页面左上角的切换身份按钮，您可以在(",
+            "Use the switch context button in the upper left corner of this page to switch between your personal context (": "使用页面左上角的切换身份按钮，你可以在(",
             ") and organizations you are a member of.": ")和组织身份之间进行切换。",
-            "After you switch contexts you’ll see an organization-focused dashboard that lists out organization repositories and activities.": "当您切换身份，您会看到一个组织为中心的页面，其中列出了组织库和活动。",
+            "After you switch contexts you’ll see an organization-focused dashboard that lists out organization repositories and activities.": "当你切换身份，你会看到一个组织为中心的页面，其中列出了组织库和活动。",
         },
         "regexp": [ // 正则翻译
             [/Show (\d+) more repositories…/, "显示 $1 个更多的仓库…"],
@@ -286,11 +286,11 @@ I18N.zh = {
 
     "page-profile": { // 个人首页
         "static": { // 静态翻译
-            "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新您的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解您。",
+            "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新你的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解你。",
 
             "Joined on": "注册于",
             "Change your avatar": "修改头像",
-            "Starred": "赞了",
+            "Starred": "加星了",
             "Following": "关注",
             "Organizations": "组织",
             "Contributions": "贡献",
@@ -320,9 +320,9 @@ I18N.zh = {
             "W": "周三",
             "F": "周五",
 
-            "Includes contributions from private repositories you can access.": "您可以访问包括私人仓库。",
+            "Includes contributions from private repositories you can access.": "你可以访问包括私人仓库。",
             "Summary of pull requests, issues opened, and commits.": "包括 拉取请求, 提问, 提交.",
-            "Learn how we count contributions": "您想知道如何计算贡献的吗",
+            "Learn how we count contributions": "你想知道如何计算贡献的吗",
             "Less": "少",
             "More": "多",
 
@@ -335,11 +335,11 @@ I18N.zh = {
             "Contribution settings": "贡献设置",
             "Select which contributions to show": "选择要显示哪​​些贡献",
             "Public contributions only": "仅公共的贡献",
-            "Visitors to your profile will only see your contributions to public repositories.": "访客到您的个人资料只会看到公共仓库部分的贡献。",
+            "Visitors to your profile will only see your contributions to public repositories.": "访客到你的个人资料只会看到公共仓库部分的贡献。",
             "Public and private contributions": "公共和私人贡献",
-            "Visitors to your profile will see your public and anonymized private contributions.": "访客到您的个人资料将会看到您的公共和匿名的私人贡献。",
-            "Visitors will now see only your public contributions.": "访客只会看到您公共仓库部分的贡献。",
-            "Visitors will now see your public and anonymized private contributions.": "访客将看到您的公共和匿名的私人贡献。",
+            "Visitors to your profile will see your public and anonymized private contributions.": "访客到你的个人资料将会看到你的公共和匿名的私人贡献。",
+            "Visitors will now see only your public contributions.": "访客只会看到你公共仓库部分的贡献。",
+            "Visitors will now see your public and anonymized private contributions.": "访客将看到你的公共和匿名的私人贡献。",
 
             "commits": "次提交",
             "Pull Request": "拉取请求",
@@ -348,7 +348,7 @@ I18N.zh = {
             "Issues reported": "问题报告",
 
             // 动态 状态词
-            "starred": "赞了",
+            "starred": "加星了",
             "forked": "收藏了",
             "forked from": "收藏至",
             "created repository": "创建了仓库",
@@ -412,11 +412,11 @@ I18N.zh = {
             "Public profile": "基本资料",
             "Profile picture": "我的头像",
             "Upload new picture": "上传新图片",
-            "You can also drag and drop a picture from your computer.": "您也可以直接拖拽照片镜像上传.",
+            "You can also drag and drop a picture from your computer.": "你也可以直接拖拽照片镜像上传.",
             "Name": "昵称",
             "Public email": "公共邮箱",
             "Don’t show my email address": "不显示我的邮箱",
-            "You can add or remove verified email addresses in your": "您可以添加或删除邮件地址在您的",
+            "You can add or remove verified email addresses in your": "你可以添加或删除邮件地址在你的",
             "personal email settings": "邮箱设置",
             "URL": "网站",
             "Company": "公司",
@@ -426,7 +426,7 @@ I18N.zh = {
 
             "Contributions": "贡献",
             "Include private contributions on my profile": "在我的主页显示私人贡献",
-            "Get credit for all your work by showing the number of contributions to private repositories on your profile without any repository or organization information.": "显示所有包括私人仓库的贡献到您的个人资料页面，不包括组织仓库信息。",
+            "Get credit for all your work by showing the number of contributions to private repositories on your profile without any repository or organization information.": "显示所有包括私人仓库的贡献到你的个人资料页面，不包括组织仓库信息。",
             "Learn how we count contributions": "查看如统计贡献",
             "Update contributions": "更新贡献",
 
@@ -448,16 +448,16 @@ I18N.zh = {
             "Confirm new password": "再次输入新的密码",
             "Update password": "更新",
             "I forgot my password": "我忘记我的密码了",
-            "Looking for two-factor authentication? You can find it in": "使用双重认证？您可以去",
+            "Looking for two-factor authentication? You can find it in": "使用双重认证？你可以去",
             "Change username": "修改用户名",
-            "Changing your username can have": "修改您的用户名会导致",
+            "Changing your username can have": "修改你的用户名会导致",
             "unintended side effects": "意想不到的副作用",
             "Delete account": "删除帐户",
-            "Once you delete your account, there is no going back. Please be certain.": "一旦您删除了帐户，就没办法恢复，请三思而行。",
+            "Once you delete your account, there is no going back. Please be certain.": "一旦你删除了帐户，就没办法恢复，请三思而行。",
             "Delete your account": "确认删除",
 
             // Emails 菜单
-            "Your": "您的",
+            "Your": "你的",
             "primary GitHub email address": "GitHub Email 主帐户",
             "will be used for account-related notifications (e.g. account changes and billing receipts) as well as any web-based GitHub operations (e.g. edits and merges).": "将被用于接收相关通知 (例如：账单信息)，以及任何基于 web 的 GitHub 操作 (例如：编辑或合并操作)。",
             "Primary": "主帐户",
@@ -471,14 +471,14 @@ I18N.zh = {
             "Add": "添加",
             "Keep my email address private": "将我的邮件地址保密",
             "We will use": "我们将使用",
-            "when performing web-based Git operations and sending email on your behalf. If you want command line Git operations to use your private email you must": "作为默认\"发件人\"地址以您的名义发送电子邮件。如果您想在命令行 Git 的操作中使用您的私人邮件地址，您必须在",
-            "set your email in Git": "Git 中设置您的电子邮件地址",
+            "when performing web-based Git operations and sending email on your behalf. If you want command line Git operations to use your private email you must": "作为默认\"发件人\"地址以你的名义发送电子邮件。如果你想在命令行 Git 的操作中使用你的私人邮件地址，你必须在",
+            "set your email in Git": "Git 中设置你的电子邮件地址",
             "Email preferences": "Email 偏好设置",
             "Receive all emails, except those I unsubscribe from.": "接收所有邮件，除了那些我退订的信息。",
-            "We'll occasionally contact you with the latest news and happenings from the GitHub Universe.": "我们将会把 GitHub Universe 的最新消息和事件发送给您。",
+            "We'll occasionally contact you with the latest news and happenings from the GitHub Universe.": "我们将会把 GitHub Universe 的最新消息和事件发送给你。",
             "Learn more": "查看更多",
             "Only receive account related emails, and those I subscribe to.": "只接收帐户相关的电子邮件，以及我的订阅的信息。",
-            "We'll only send you legal or administrative emails, and any emails you’ve specifically subscribed to.": "我们只向您发送法律或行政邮件以及您订阅信息。",
+            "We'll only send you legal or administrative emails, and any emails you’ve specifically subscribed to.": "我们只向你发送法律或行政邮件以及你订阅信息。",
             "Save email preferences": "保存偏好",
             "Successfully updated your email preferences.": "Email 偏好设置修改成功。",
             "Looking for activity notification controls? Check the": "想要了解更详细的通知设置，请前往",
@@ -486,20 +486,20 @@ I18N.zh = {
             // Notification center 菜单
             "How you receive notifications": "通知设置",
             "Automatic watching": "自动关注",
-            "When you’re given push access to a repository, automatically receive notifications for it.": "当您给一个仓库推送权限时，自动接收相关通知。",
+            "When you’re given push access to a repository, automatically receive notifications for it.": "当你给一个仓库推送权限时，自动接收相关通知。",
             "Automatically watch repositories": "自动关注仓库",
             "Participating": "参与话题",
             "When you participate in a conversation or someone brings you in with an": "当有人",
             "@mention": "@用户名",
             "Watching": "关注仓库",
-            "Updates to any repositories or threads you’re watching.": "当您关注的仓库更新时。",
+            "Updates to any repositories or threads you’re watching.": "当你关注的仓库更新时。",
             "Your notification settings apply to the": "通知设置将应用到",
-            "repositories you’re watching": "您关注的仓库",
+            "repositories you’re watching": "你关注的仓库",
             "Notification email": "接收通知的邮箱",
             "Primary email address": "主邮箱地址",
             "Save": "保存",
             "Custom routing": "自定义",
-            "You can send notifications to different": "您可以发送通知不同的",
+            "You can send notifications to different": "你可以发送通知不同的",
             "verified": "验证",
             "email addresses depending on the organization that owns the repository.": "电子邮件地址取决于组织拥有仓库。",
 
@@ -530,22 +530,22 @@ I18N.zh = {
             "Status:": "状态:",
             "Off": "未开启",
             "Set up two-factor authentication": "设置双重认证",
-            "provides another layer of security to your account.": "为您的帐户提供了另一层安全保障。",
+            "provides another layer of security to your account.": "为你的帐户提供了另一层安全保障。",
             "Sessions": "会话信息",
-            "This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.": "这是您登陆的设备会话列表，如果不是您本人操作，可以关闭该会话。",
-            "Your current session": "您当前的会话",
+            "This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.": "这是你登陆的设备会话列表，如果不是你本人操作，可以关闭该会话。",
+            "Your current session": "你当前的会话",
             "Location:": "地址",
             "Signed in:": "登陆于",
             "Last accessed on": "最后访问时间",
             "Revoke": "注销",
             "Security history": "操作记录",
-            "This is a security log of important events involving your account.": "这是您帐户的操作日志",
+            "This is a security log of important events involving your account.": "这是你帐户的操作日志",
 
             // Applications 菜单
             "Authorized applications": "已授权的应用",
             "Developer applications": "开发者应用",
             "Revoke all": "注销全部",
-            "You have granted the following applications access to your account. Read more about connecting with third-party applications at": "您已授权下来应用访问您的帐户信息，如需了解更多请阅读",
+            "You have granted the following applications access to your account. Read more about connecting with third-party applications at": "你已授权下来应用访问你的帐户信息，如需了解更多请阅读",
             "Sort": "排序",
             "Sort by": "排序方式",
             "Alphabetical": "字母排序",
@@ -553,19 +553,19 @@ I18N.zh = {
             "Least recently used": "最少使用",
             "No Developer Applications": "暂无开发者的应用",
             "Developer applications are used to access the": "开发者应用是用于访问",
-            ". To get started you should": "。首先您应该",
+            ". To get started you should": "。首先你应该",
             "register an application": "注册一个应用",
             "Register new application": "注册应用",
             "Register a new OAuth application": "注册一个 OAuth 应用",
             "Application name": "应用名",
             "Something users will recognize and trust": "让用户识别和信任",
             "Homepage URL": "主页地址",
-            "The full URL to your application homepage": "您的应用主页地址",
+            "The full URL to your application homepage": "你的应用主页地址",
             "Application description": "应用描述",
             "Application description is optional": "应用描述 (可选)",
-            "This is displayed to all potential users of your application": "给您的目标用户最直接的信息",
+            "This is displayed to all potential users of your application": "给你的目标用户最直接的信息",
             "Authorization callback URL": "认证回调地址",
-            "Your application’s callback URL. Read our": "您的应用授权回调地址。详情请阅读",
+            "Your application’s callback URL. Read our": "你的应用授权回调地址。详情请阅读",
             "OAuth documentation": "OAuth 文档",
             "for more information": "。",
             "Register application": "注册应用",
@@ -583,7 +583,7 @@ I18N.zh = {
             "authenticate to the API over Basic Authentication": "或用来进行API调用的验证",
 
             // Organizations 页面
-            "You are not a member of any organizations.": "您暂无任何组织。",
+            "You are not a member of any organizations.": "你暂无任何组织。",
             "Transform account": "账户变更",
             "Account transformation warning": "账户变更警告",
             "What you are about to do is an irreversible and destructive process. Please be aware:": "这将是一个不可逆转的过程，请确认：",
@@ -592,7 +592,7 @@ I18N.zh = {
         },
         "regexp": [ // 正则翻译
             [/This email will not be used as the 'from' address for web-based GitHub operations - we will instead use ([^@]+@users.noreply.github.com)./, "该邮箱不会被用作 \"发件人\"地址，我们会改用 ($1) 作为默认 \"发件人\"地址。"],
-            [/Your primary email was changed to ([^@]+@[^\n]+)\./, "您的 Email 主帐户已经更改为 $1"],
+            [/Your primary email was changed to ([^@]+@[^\n]+)\./, "你的 Email 主帐户已经更改为 $1"],
             [/(\d+) private repositories?\./, "$1 个私有仓库."],
             [/(\d+) data packs?/, "$1 数据包"],
             [/(\d+) days? left,\n\s+billed monthly/, "$1天, 按月"],
@@ -600,9 +600,9 @@ I18N.zh = {
             [/Using\n\s+([\d.]+) of\n\s+(\d+) GB/, "＄$1, $2GB"],
             [/(\d+) Authorized applications?/, "$1 个授权应用"],
             [/Turn (\w+) into an organization/, "变更 $1 为一个组织"],
-            [/You will no longer be able to sign into (\w+) \(all administrative privileges will be bestowed upon the owners you choose\)/, "您将不能作为账户登录到 $1。（所有管理权限将赋予您选择的所有者）"],
+            [/You will no longer be able to sign into (\w+) \(all administrative privileges will be bestowed upon the owners you choose\)/, "你将不能作为账户登录到 $1。（所有管理权限将赋予你选择的所有者）"],
             [/Any commits credited to (\w+) will no longer be linked to this GitHub account/, "任何提交归功于 $1 将不再链接到这个 GitHub 帐户"],
-            [/If you are using (\w+) as a personal account, you should/, "如果您正在使用 $1 作为个人帐户，您应"],
+            [/If you are using (\w+) as a personal account, you should/, "如果你正在使用 $1 作为个人帐户，你应"],
             [/before transforming (\w+) into an organization./, "在转化 $1 组织之前。"],
         ],
     },
@@ -617,17 +617,17 @@ I18N.zh = {
             "Description": "描述",
             "(optional)": "(可选)",
             "Public": "公共 (免费)",
-            "Anyone can see this repository. You choose who can commit.": "任何人都可以看到这个仓库，您可以选择谁能提交。",
+            "Anyone can see this repository. You choose who can commit.": "任何人都可以看到这个仓库，你可以选择谁能提交。",
             "Private": "私有 (收费)",
-            "You choose who can see and commit to this repository.": "您可以选择谁可以看和提交到该仓库。",
+            "You choose who can see and commit to this repository.": "你可以选择谁可以看和提交到该仓库。",
             "Initialize this repository with a README": "使用 README.md 初始化仓库",
-            "This will let you immediately clone the repository to your computer. Skip this step if you’re importing an existing repository.": "这将让您可以立刻克隆该仓库到您的电脑。如果您要提交已有的仓库，请忽略这个选项。",
+            "This will let you immediately clone the repository to your computer. Skip this step if you’re importing an existing repository.": "这将让你可以立刻克隆该仓库到你的电脑。如果你要提交已有的仓库，请忽略这个选项。",
             "Add .gitignore:": "添加 .gitignore 文件",
             "Filter ignores…": "筛选忽略文件…",
             "Add a license:": "添加发布许可",
             "Filter licenses…": "筛选许可…",
             "None": "无",
-            "Need help picking a license? We’ve built a site just for you.": "需要帮您挑选一个许可吗？我们为您供了参考页面。",
+            "Need help picking a license? We’ve built a site just for you.": "需要帮你挑选一个许可吗？我们为你供了参考页面。",
             "Create repository": "创建仓库",
             "Creating repository…": "创建仓库中…",
         },
@@ -644,7 +644,7 @@ I18N.zh = {
 
     "vis-public": { // 仓库页
         "static": { // 静态翻译
-            "Where should we fork this repository?": "您想把该仓库派生到哪个角色下？",
+            "Where should we fork this repository?": "你想把该仓库派生到哪个角色下？",
 
             "Code": "代码",
             "Pulse": "统计",
@@ -654,7 +654,7 @@ I18N.zh = {
             "No description or website provided.": "没有提供说明和网站信息.",
             "Edit": "编辑",
             "Description": "描述",
-            "Short description of this repository": "简短的描述下您的仓库",
+            "Short description of this repository": "简短的描述下你的仓库",
             "Website": "网址",
             "Website for this repository (optional)": "这个仓库的网址 (可选)",
             "Save": "保存",
@@ -681,7 +681,7 @@ I18N.zh = {
             "Copy to clipboard": "复制到剪切板",
             "Copied!": "复制成功!",
 
-            "Your recently pushed branches:": "您最近推送的分支:",
+            "Your recently pushed branches:": "你最近推送的分支:",
             "(less than a minute ago)": "不到一分钟前",
             "Compare & pull request": "比较 & 拉取请求",
 
@@ -710,25 +710,25 @@ I18N.zh = {
             "Nothing to show": "暂无",
 
             "File uploading is now available": "现在可以上传文件了",
-            "You can now drag and drop files into your repositories.": "您可以直接拖拽文件到该仓库界面进行上传。",
+            "You can now drag and drop files into your repositories.": "你可以直接拖拽文件到该仓库界面进行上传。",
             "Learn more": "查看详情",
             "Dismiss": "我知道了",
 
             // 关注者页面
             "Watchers": "关注者",
 
-            // 点赞者页面
-            "Stargazers": "点赞的人",
+            // 加星者页面
+            "Stargazers": "加星的人",
             "All": "全部",
-            "You know": "您关注的",
+            "You know": "你关注的",
 
             // issues 页面
             "Filters": "筛选",
             "Open issues and pull requests": "开放的问题或拉取请求",
-            "Your issues": "您提出的问题",
-            "Your pull requests": "您的拉取请求",
-            "Everything assigned to you": "任何关于您的",
-            "Everything mentioning you": "提及您的",
+            "Your issues": "你提出的问题",
+            "Your pull requests": "你的拉取请求",
+            "Everything assigned to you": "任何关于你的",
+            "Everything mentioning you": "提及你的",
             "View advanced search syntax": "查看高级搜索语法",
 
             "Labels": "标签",
@@ -760,14 +760,14 @@ I18N.zh = {
             "New collaborator": "添加合作者",
             "Collaborators": "合作者",
             "Push access to the repository": "当前仓库的推送权限",
-            "This repository doesn’t have any collaborators yet. Use the form below to add a collaborator.": "当前仓库没有合作者，您可以在下面输入框添加合作者。",
+            "This repository doesn’t have any collaborators yet. Use the form below to add a collaborator.": "当前仓库没有合作者，你可以在下面输入框添加合作者。",
             "Search by username, full name or email address": "搜索用户名, 全名, 邮箱地址：",
             "Add collaborator": "添加合作者",
 
             // Upload files 页面
             "Drag files here to add them to your repository": "拖拽文件添加到当前仓库",
             "Drag additional files here to add them to your repository": "拖拽其他文件添加到当前仓库",
-            "Drop to upload your files": "拖拽上传您的文件",
+            "Drop to upload your files": "拖拽上传你的文件",
             "Or": "或",
             "choose your files": "选择文件",
             "Yowza, that’s a big file. Try again with a file smaller than 25MB.": "我勒个擦，这么大的文件，单文件不得超过25MB",
@@ -788,9 +788,9 @@ I18N.zh = {
             "Learn more about pull requests.": "了解更多拉取请求。",
 
             // Find file 页面
-            "You’ve activated the": "您已激活",
+            "You’ve activated the": "你已激活",
             "file finder": "文件搜索模式",
-            ". Start typing to filter the file list. Use": "。输入关键词查找您的文件。使用",
+            ". Start typing to filter the file list. Use": "。输入关键词查找你的文件。使用",
             "and": "和",
             "to navigate,": "选择文件",
             "to view files,": "查看文件",
@@ -803,9 +803,9 @@ I18N.zh = {
             // Pull Requests 页面
             "There aren’t any open pull requests.": "暂无拉取请求。",
             "There aren’t any open issues.": "暂无开放的问题。",
-            "Use the links above to find what you’re looking for, or try": "使用上面的链接来找到您要找的，或者尝试",
+            "Use the links above to find what you’re looking for, or try": "使用上面的链接来找到你要找的，或者尝试",
             "a new search query": "新的搜索查询",
-            ". The Filters menu is also super helpful for quickly finding issues most relevant to you.": "。搜索栏也是快速找到问题最相关的您超级有帮助的。",
+            ". The Filters menu is also super helpful for quickly finding issues most relevant to you.": "。搜索栏也是快速找到问题最相关的你超级有帮助的。",
 
             "Conversation": "交谈",
             "Files changed": "更改的文件",
@@ -817,15 +817,15 @@ I18N.zh = {
             "Revert": "还原",
 
             "Avoid bugs by automatically running your tests.": "通过持续集成测试来避免BUG。",
-            "Continuous integration can help catch bugs by running your tests automatically.": "持续集成可以通过自动运行您的测试有助于捕获错误。",
-            "Merge your code with confidence using one of our continuous integration providers.": "合并您的代码使用我们信任的持续集成供应商。",
+            "Continuous integration can help catch bugs by running your tests automatically.": "持续集成可以通过自动运行你的测试有助于捕获错误。",
+            "Merge your code with confidence using one of our continuous integration providers.": "合并你的代码使用我们信任的持续集成供应商。",
 
             "Add more commits by pushing to the": "添加更多来至于",
             "branch on": "分支的提交推送到",
 
             "This branch has no conflicts with the base branch": "该分支与base支没有冲突",
             "Merging can be performed automatically.": "可以自动地执行合并。",
-            "You can also": "您也可以在",
+            "You can also": "你也可以在",
             "open this in GitHub Desktop": "GitHub桌面版本",
             "or view": "打开，或通过",
             "command line instructions": "命令行查看",
@@ -842,7 +842,7 @@ I18N.zh = {
             "No commit comments for this range": "该范围变更没有提交注释",
 
             // wiki 页面
-            "Wikis provide a place in your repository to lay out the roadmap of your project, show the current status, and document software better, together.": "wiki 为您的仓库提供了一个更好的文档资料。",
+            "Wikis provide a place in your repository to lay out the roadmap of your project, show the current status, and document software better, together.": "wiki 为你的仓库提供了一个更好的文档资料。",
             "Create the first page": "创建第一个页面",
 
             "Create new page": "创建新页面",
@@ -860,30 +860,30 @@ I18N.zh = {
             "Repository name": "仓库名",
             "Rename": "重命名",
             "Features": "特性",
-            "GitHub Wikis is a simple way to let others contribute content. Any GitHub user can create and edit pages to use for documentation, examples, support, or anything you wish.": "GitHub Wikis 是一个简单的方法让别人贡献内容。GitHub 的任何用户都可以创建和编辑页面中使用的文档，示例，支持或任何您想。",
+            "GitHub Wikis is a simple way to let others contribute content. Any GitHub user can create and edit pages to use for documentation, examples, support, or anything you wish.": "GitHub Wikis 是一个简单的方法让别人贡献内容。GitHub 的任何用户都可以创建和编辑页面中使用的文档，示例，支持或任何你想。",
             "Restrict editing to collaborators only": "编辑限制只有合作者可以",
             "Public wikis will still be readable by everyone.": "公共 wikis 仍然会受到大家的可读性",
-            "GitHub Issues adds lightweight issue tracking tightly integrated with your repository. Add issues to milestones, label issues, and close & reference issues from commit messages.": "GitHub 与您的存储库添加轻量级问题跟踪紧密集成的问题。添加里程碑的问题，标签问题，并密切与参考问题提交消息。",
+            "GitHub Issues adds lightweight issue tracking tightly integrated with your repository. Add issues to milestones, label issues, and close & reference issues from commit messages.": "GitHub 与你的存储库添加轻量级问题跟踪紧密集成的问题。添加里程碑的问题，标签问题，并密切与参考问题提交消息。",
 
             "Merge button": "合并按钮",
-            "When merging pull requests, you can allow merge commits, squashing, or both.": "当合并拉取请求时，您可以允许合并提交，压缩。",
+            "When merging pull requests, you can allow merge commits, squashing, or both.": "当合并拉取请求时，你可以允许合并提交，压缩。",
             "Allow merge commits": "允许合并提交",
             "Add all commits from the head branch to the base branch with a merge commit.": "从head分支的所有提交合并提交到base分支。",
             "Allow squash merging": "允许压缩合并",
             "Combine all commits from the head branch into a single commit in the base branch.": "从head分支的所有提交压缩提交到base分支。",
-            "You must select at least one option": "您至少要选择一个选项。",
+            "You must select at least one option": "你至少要选择一个选项。",
 
             "GitHub Pages": "GitHub 项目演示页面",
-            "Your site is published at": "您的演示地址为:",
-            "Your site is ready to be published at": "您的演示地址为:",
-            "Update your site": "更新您的站点",
-            "To update your site, push your HTML or": "更新您的站点，可以直接推送 html 或者使用",
+            "Your site is published at": "你的演示地址为:",
+            "Your site is ready to be published at": "你的演示地址为:",
+            "Update your site": "更新你的站点",
+            "To update your site, push your HTML or": "更新你的站点，可以直接推送 html 或者使用",
             "updates to your": "更新到",
             "branch. Read the": "分支。详情请阅读",
             "Pages help article": "演示页面帮助",
             "for more information.": "获取更多信息",
             "Overwrite site": "覆盖现有站点",
-            "Replace your existing site by using our automatic page generator. Author your content in our Markdown editor, select a theme, then publish.": "通过使用我们的自动页面生成器替换现有的网站。您可以在我们的 Markdown 编辑器，选择一个主题，然后发布。",
+            "Replace your existing site by using our automatic page generator. Author your content in our Markdown editor, select a theme, then publish.": "通过使用我们的自动页面生成器替换现有的网站。你可以在我们的 Markdown 编辑器，选择一个主题，然后发布。",
             "Launch automatic page generator": "启动自动生成器",
 
             "Danger Zone": "危险区",
@@ -892,16 +892,16 @@ I18N.zh = {
             "duplicate the repository": "复制一份该仓库。",
             "Make private": "转为私有",
             "Please": "请",
-            "upgrade your plan": "更新您的私有仓库计划",
+            "upgrade your plan": "更新你的私有仓库计划",
             "to make this repository private.": "让这个仓库转为私有。",
             "Transfer ownership": "转让所有权",
             "Transfer": "转让",
-            "Transfer this repository to another user or to an organization where you have admin rights.": "此存储库转移到其他用户或组织，在这里您具有管理员权限。",
+            "Transfer this repository to another user or to an organization where you have admin rights.": "此存储库转移到其他用户或组织，在这里你具有管理员权限。",
             "Delete this repository": "删除此仓库",
-            "Once you delete a repository, there is no going back. Please be certain.": "一旦删除您的仓库，将无法找回。请您三思。",
+            "Once you delete a repository, there is no going back. Please be certain.": "一旦删除你的仓库，将无法找回。请你三思。",
 
             "Default branch": "默认分支",
-            "The default branch is considered the “base” branch in your repository, against which all pull requests and code commits are automatically made, unless you specify a different branch.": "默认分支被认为是“基地”分支在您的资料库，对所有拉取请求和代码的提交是自动进行的，除非您指定一个不同的分支。",
+            "The default branch is considered the “base” branch in your repository, against which all pull requests and code commits are automatically made, unless you specify a different branch.": "默认分支被认为是“基地”分支在你的资料库，对所有拉取请求和代码的提交是自动进行的，除非你指定一个不同的分支。",
             "Update": "更新",
             "Switch default branch": "选择默认分支",
             "Filter branches": "搜索分支",
@@ -910,18 +910,18 @@ I18N.zh = {
             "Learn more.": "查看更多信息",
             "No protected branches yet.": "暂无受保护分支",
 
-            "Are you ABSOLUTELY sure?": "您确定一定以及肯定？",
+            "Are you ABSOLUTELY sure?": "你确定一定以及肯定？",
             "Unexpected bad things will happen if you don’t read this!": "请仔细阅读以下提示信息！！！",
             "This action": "该操作是",
             "CANNOT": "不可逆的",
-            "be undone. This will permanently delete the": "，您将永久删除",
+            "be undone. This will permanently delete the": "，你将永久删除",
             "repository, wiki, issues, and comments, and remove all collaborator associations.": "仓库，wiki，问题和提交内容，并且移除所有合作者。",
-            "Please type in the name of the repository to confirm.": "请您输入该仓库名以确认删除它。",
+            "Please type in the name of the repository to confirm.": "请你输入该仓库名以确认删除它。",
             "I understand the consequences, delete this repository": "我确定一定以及肯定删除它",
 
             // Compare changes 页面
             "Compare changes": "变更比较",
-            "Compare changes across branches, commits, tags, and more below. If you need to, you can also": "比较跨分支，提交，标签，和更多的变更。如果您需要，也可以",
+            "Compare changes across branches, commits, tags, and more below. If you need to, you can also": "比较跨分支，提交，标签，和更多的变更。如果你需要，也可以",
             "compare across forks": "比较派生库和源仓库",
             "base:": "基础库:",
             "compare:": "比较库:",
@@ -933,8 +933,8 @@ I18N.zh = {
 
             // issues 页面
             "No description provided.": "没有具体描述。",
-            "Add your reaction": "添加您的表情",
-            "Pick your reaction": "选择您的表情",
+            "Add your reaction": "添加你的表情",
+            "Pick your reaction": "选择你的表情",
             "Leave a comment": "发表评论",
             "Milestone": "里程碑",
             "Unsubscribe": "取消订阅",
@@ -947,14 +947,14 @@ I18N.zh = {
 
             // 新建空仓库
             "Quick setup": "快速安装",
-            "— if you’ve done this kind of thing before": "- 如果您以前做过这样的事",
+            "— if you’ve done this kind of thing before": "- 如果你以前做过这样的事",
             "Set up in Desktop": "安装到桌面",
             "We recommend every repository include a": "我们推荐每个仓库都包括",
             ", and": "，和",
             "…or create a new repository on the command line": "…或在命令行上创建一个新的仓库",
             "…or push an existing repository from the command line": "…或从命令行中推送现有的仓库",
             "…or import code from another repository": "…或从另一个仓库库导入代码",
-            "You can initialize this repository with code from a Subversion, Mercurial, or TFS project.": "您可以初始化此仓库从一个 Subversion，Mercurial 或 TFS 项目。",
+            "You can initialize this repository with code from a Subversion, Mercurial, or TFS project.": "你可以初始化此仓库从一个 Subversion，Mercurial 或 TFS 项目。",
             "Import code": "导入代码",
 
             // commits 页面
@@ -971,14 +971,14 @@ I18N.zh = {
 
             // branches 页面
             "Overview": "概述",
-            "Yours": "您的",
+            "Yours": "你的",
             "Active": "活跃的",
             "Stale": "陈旧的",
             "All branches": "所有分支",
             "Search branches…": "搜索分支…",
 
-            "Your branches": "您的分支",
-            "You haven’t pushed any branches to this repository.": "您没有推送任何分支到该仓库。",
+            "Your branches": "我的分支",
+            "You haven’t pushed any branches to this repository.": "你没有推送任何分支到该仓库。",
             "Active branches": "活跃的分支",
             "There aren’t any active branches.": "没有任何活跃的分支。",
             "Stale branches": "陈旧的分支",
@@ -1013,7 +1013,7 @@ I18N.zh = {
             "Edit tag": "修改标签",
             "Edit release": "修改发布",
             "Delete": "删除",
-            "Are you sure?": "您确定一定以及肯定吗？",
+            "Are you sure?": "你确定一定以及肯定吗？",
             "This will delete the information for this tag.": "将删除该标签的所有信息。",
             "Delete this tag": "删除此标签",
             "Your tag was removed": "标签删除成功！",
@@ -1047,7 +1047,7 @@ I18N.zh = {
         },
         "regexp": [ // 正则翻译
             [/HTTPS\s+(recommended)/, "HTTPS (推荐)"],
-            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到您的电脑。"],
+            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到你的电脑。"],
             [/(\d+) Open/, "$1 个开放的"],
             [/(\d+) Closed/, "$1 个关闭的"],
             [/View all issues opened by (.+)/, "查看所有 $1 的问题"],
@@ -1064,16 +1064,16 @@ I18N.zh = {
     "homepage": { // 未登录首页
         "static": { // 静态翻译
             "Pick a username": "选择一个用户名",
-            "Your email address": "您的邮件地址",
+            "Your email address": "你的邮件地址",
             "Create a password": "创建一个密码",
             "Sign up for GitHub": "注册 GitHub",
 
             "Use at least one letter, one numeral, and seven characters.": "密码需要字母和数字组成的 7 位以上字符串。",
-            "By clicking \"Sign up for GitHub\", you agree to our": "点击 “注册 GitHub”，表示您同意我们的",
+            "By clicking \"Sign up for GitHub\", you agree to our": "点击 “注册 GitHub”，表示你同意我们的",
             "terms of service": "服务条款",
             "and": "和",
             "privacy policy": "隐私政策条款",
-            "We'll occasionally send you account related emails.": "我们会偶尔发送您的帐户相关的电子邮件。",
+            "We'll occasionally send you account related emails.": "我们会偶尔发送你的帐户相关的电子邮件。",
 
             "How people build software": "人们如何构建软件",
             "Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies.": "数以百万计的开发人员使用 GitHub 建立个人项目，支持他们的企业，共同在开放源码技术。",
@@ -1086,20 +1086,20 @@ I18N.zh = {
             "read more about this change on our blog": "阅读更多信息在我们的博客上",
 
             "Welcome home, developers": "欢迎回来，开发者们",
-            "GitHub fosters a fast, flexible, and collaborative development process that lets you work on your own or with others.": "GitHub 提供了一个快速，灵活和协作开发过程，让您对自己或与他人合作。",
+            "GitHub fosters a fast, flexible, and collaborative development process that lets you work on your own or with others.": "GitHub 提供了一个快速，灵活和协作开发过程，让你对自己或与他人合作。",
 
-            "For everything you build": "为您打造",
-            "Host and manage your code on GitHub. You can keep your work private or share it with the world.": "主机和管理您的代码在 GitHub 上。您可以把您的工作或私人与世界分享。",
+            "For everything you build": "为你打造",
+            "Host and manage your code on GitHub. You can keep your work private or share it with the world.": "主机和管理你的代码在 GitHub 上。你可以把你的工作或私人与世界分享。",
             "A better way to work": "一个更好的工作方式",
             "From hobbyists to professionals, GitHub helps developers simplify the way they build software.": "从业余爱好者到专业人士，GitHub 帮助开发人员简化的方式构建软件。",
             "Millions of projects": "数以百万计的项目",
-            "GitHub is home to millions of open source projects. Try one out or get inspired to create your own.": "GitHub 是数百万开源项目的家园。尝试一个或获得灵感来创造您自己的项目。",
+            "GitHub is home to millions of open source projects. Try one out or get inspired to create your own.": "GitHub 是数百万开源项目的家园。尝试一个或获得灵感来创造你自己的项目。",
             "One platform, from start to finish": "一个平台，从始至终",
-            "With hundreds of integrations, GitHub is flexible enough to be at the center of your development process.": "成百上千的集成，GitHub 是足够灵活的，能够在您的发展过程的中心。",
+            "With hundreds of integrations, GitHub is flexible enough to be at the center of your development process.": "成百上千的集成，GitHub 是足够灵活的，能够在你的发展过程的中心。",
 
             "Who uses GitHub?": "谁在使用 GitHub ?",
             "Individuals": "个人",
-            "Use GitHub to create a personal project, whether you want to experiment with a new programming language or host your life’s work.": "使用 GitHub 来创建一个个人项目，不管您想要尝试一个新的编程语言或主机在您生活及工作。",
+            "Use GitHub to create a personal project, whether you want to experiment with a new programming language or host your life’s work.": "使用 GitHub 来创建一个个人项目，不管你想要尝试一个新的编程语言或主机在你生活及工作。",
             "Communities": "社区",
             "GitHub hosts one of the largest collections of open source software. Create, manage, and work on some of today’s most influential technologies.": "GitHub 主机是最大的开放源码软件的集合之一。创建，管理，以及在一些当今最具影响力的技术工作。",
             "Businesses": "企业",
@@ -1134,25 +1134,25 @@ I18N.zh = {
             "Step 1:": "第一步:",
             "Set up a personal account": "建立个人账户",
             "Step 2:": "第二步:",
-            "Choose your plan": "选择您的方案",
+            "Choose your plan": "选择你的方案",
             "Step 3:": "第三步:",
-            "Go to your dashboard": "去到您的首页",
+            "Go to your dashboard": "去到你的首页",
 
             // Step 1:
-            "Create your personal account": "创建您的个人账户",
-            "Username": "用户名 (也是您个人首页的二级地址)",
-            "This will be your username — you can enter your organization’s username next.": "这将是您的用户名 - 也可以是您组织或公司的名称。",
+            "Create your personal account": "创建你的个人账户",
+            "Username": "用户名 (也是你个人首页的二级地址)",
+            "This will be your username — you can enter your organization’s username next.": "这将是你的用户名 - 也可以是你组织或公司的名称。",
             "Email Address": "Email 地址",
-            "You will occasionally receive account related emails. We promise not to share your email with anyone.": "该邮箱用于接收相关的通知邮件。我们承诺不公开您的电子邮件给任何人。",
+            "You will occasionally receive account related emails. We promise not to share your email with anyone.": "该邮箱用于接收相关的通知邮件。我们承诺不公开你的电子邮件给任何人。",
             "Password": "密码",
             "Use at least one lowercase letter, one numeral, and seven characters.": "密码需要字母和数字组成的 7 位以上字符串。",
-            "By clicking on \"Create an account\" below, you are agreeing to the": "点击下面的“创建账户”，表示您同意我们的",
+            "By clicking on \"Create an account\" below, you are agreeing to the": "点击下面的“创建账户”，表示你同意我们的",
             "Terms of Service": "服务条款",
             "and the": "和",
             "Privacy Policy": "隐私政策",
             "Create an account": "创建账户",
 
-            "You’ll love GitHub": "您将会爱上 GitHub",
+            "You’ll love GitHub": "你将会爱上 GitHub",
             "Unlimited": "无限多的",
             "collaborators": "合作者",
             "public repositories": "公共仓库",
@@ -1162,8 +1162,8 @@ I18N.zh = {
 
             // Step 2:
             "Welcome to GitHub": "欢迎来到 GitHub",
-            "You’ve taken your first step into a larger world,": "您已经迈出了第一步进入到更大的世界，",
-            "Choose your personal plan": "选择您的个人方案",
+            "You’ve taken your first step into a larger world,": "你已经迈出了第一步进入到更大的世界，",
+            "Choose your personal plan": "选择你的个人方案",
             "Unlimited public repositories for free.": "无限的公共仓库免费使用",
             "Unlimited private repositories": "无限的私人仓库",
             "for": "需",
@@ -1174,7 +1174,7 @@ I18N.zh = {
             "Don’t worry, you can cancel or upgrade at any time.": "别担心，你可以随时升级或取消这个方案。",
             "Charges to your account will be made in ": "汇率问题说明，不翻译了...",
             "Secure": "安全",
-            "Enter your billing details": "输入您的帐单明细",
+            "Enter your billing details": "输入你的帐单明细",
             "Pay with": "支付方式",
             "Credit card": "信用卡",
             "PayPal account": "PayPal 账户",
@@ -1205,8 +1205,8 @@ I18N.zh = {
 
             "No new notifications.": "没有新的通知。",
             "Depending on": "根据",
-            "your notification settings": "您的通知设置",
-            ", you’ll see updates here for your conversations in watched repositories.": "，您将看到您关注仓库的更新信息。",
+            "your notification settings": "我的通知设置",
+            ", you’ll see updates here for your conversations in watched repositories.": "，你将看到你关注仓库的更新信息。",
         },
         "regexp": [ // 正则翻译
         ],
@@ -1221,25 +1221,25 @@ I18N.zh = {
             "Sorted by most recently watched.": "按最近关注排序",
             "Unwatch all": "取消所有关注",
             "Notification settings": "通知设置",
-            "You can change how you receive notifications from your account settings.": "您可以修改接收通知的方式。",
+            "You can change how you receive notifications from your account settings.": "你可以修改接收通知的方式。",
             "Change notification settings": "修改通知设置",
         },
         "regexp": [ // 正则翻译
         ],
     },
 
-    "stars": { // 点赞页面
+    "stars": { // 加星页面
         "static": { // 静态翻译
-            "Search starred repositories…": "搜索点赞的仓库…",
+            "Search starred repositories…": "搜索加星的仓库…",
             "Sort:": "排序:",
             "Sort options": "排序选项",
             "Recently starred": "最近关注的",
             "Recently active": "最近活动的",
-            "Most stars": "最多赞的",
-            "Unstar": "取消点赞",
+            "Most stars": "最多加星的",
+            "Unstar": "取消加星",
 
             "All stars": "所有仓库",
-            "Your repositories": "您的仓库",
+            "Your repositories": "我的仓库",
             "Others' repositories": "其他仓库",
 
             "Filter by languages": "筛选语言",
@@ -1279,9 +1279,9 @@ I18N.zh = {
             "Filter Languages": "筛选语言",
         },
         "regexp": [ // 正则翻译
-            [/([\d,]+) stars today([^B]+)[\w ]+/, "今天 $1 赞$2创建者"],
-            [/([\d,]+) stars this week([^B]+)[\w ]+/, "本周 $1 赞$2创建者"],
-            [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 赞$2创建者"],
+            [/([\d,]+) stars today([^B]+)[\w ]+/, "今天 $1 加星$2创建者"],
+            [/([\d,]+) stars this week([^B]+)[\w ]+/, "本周 $1 加星$2创建者"],
+            [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 加星$2创建者"],
         ],
     },
 
@@ -1311,10 +1311,10 @@ I18N.zh = {
             "Least recently updated": "最早更新",
             "Most reactions": "最多回应",
 
-            "No results matched your search.": "没有符合您的搜索结果。",
-            "Use the links above to find what you’re looking for, or try": "使用上面的链接找到您要找的内容，或尝试",
+            "No results matched your search.": "没有符合你的搜索结果。",
+            "Use the links above to find what you’re looking for, or try": "使用上面的链接找到你要找的内容，或尝试",
             "a new search query": "新的搜索查询",
-            ". The Filters menu is also super helpful for quickly finding issues most relevant to you.": "。过滤菜单也是快速找到问题最相关的您超级有帮助的。",
+            ". The Filters menu is also super helpful for quickly finding issues most relevant to you.": "。过滤菜单也是快速找到问题最相关的你超级有帮助的。",
             "ProTip!": "专业提示！",
             "Updated in the last three days": "更新了最后三天：",
         },
@@ -1328,7 +1328,7 @@ I18N.zh = {
     "search": { // 搜索页面
         "static": { // 静态翻译
             "Search more than": "这里有超过",
-            "repositories": "的仓库供您搜索",
+            "repositories": "的仓库供你搜索",
 
             "Repositories": "仓库",
             "Code": "代码",
@@ -1338,14 +1338,14 @@ I18N.zh = {
 
             "Advanced search": "高级搜索",
             "Cheat sheet": "搜索技巧",
-            "You could try an": "您可以试一试",
+            "You could try an": "你可以试一试",
             "advanced search": "高级搜索",
 
             "Sort:": "排序:",
             "Sort options": "排序选项",
             "Best match": "最佳匹配",
-            "Most stars": "最多赞",
-            "Fewest stars": "最少赞",
+            "Most stars": "最多加星",
+            "Fewest stars": "最少加星",
             "Most forks": "最多派生",
             "Fewest forks": "最少派生",
             "Recently updated": "最近更新",
@@ -1362,7 +1362,7 @@ I18N.zh = {
             "Everything else": "其他语言",
 
             "Repositories options": "仓库选项",
-            "With this many stars": "指定被赞数",
+            "With this many stars": "指定被加星数",
             "With this many forks": "指定派生数",
             "Of this size": "仓库大小",
             "Pushed to": "推送于",
@@ -1396,25 +1396,25 @@ I18N.zh = {
 
         },
         "regexp": [ // 正则翻译
-            [/We’ve found ([\d,]+) repository results/, "我们为您找到 $1 个相关结果"],
+            [/We’ve found ([\d,]+) repository results/, "我们为你找到 $1 个相关结果"],
             [/We couldn’t find any repositories matching '(.+)'/, "我们没有找到任何与 '$1' 相关的结果"],
         ],
     },
 
 
-    "gist": { // 代码片段页面
+    "gist": { // 代码段页面
         "static": { // 静态翻译
-            "Search…": "搜索代码片段…",
-            "All gists": "所有片段",
-            "New gist": "新建片段",
-            "Your gists": "您的片段",
-            "Starred gists": "已赞片段",
+            "Search…": "搜索代码代码段…",
+            "All gists": "所有代码段",
+            "New gist": "新建代码段",
+            "Your gists": "我的代码段",
+            "Starred gists": "已加星代码段",
             "Your GitHub profile": "设置",
 
             "View profile and more": "查看更多信息",
-            "See all of your gists": "查看您的所有片段",
-            "Instantly share code, notes, and snippets.": "即时分享您的代码，笔记，片段，以及灵感。",
-            "Gist description…": "片段描述",
+            "See all of your gists": "查看我的所有代码段",
+            "Instantly share code, notes, and snippets.": "即时分享你的代码，笔记，代码段，以及灵感。",
+            "Gist description…": "代码段描述",
 
             "Filename including extension…": "文件名 (包括扩展名)",
             "Indent mode": "缩进模式",
@@ -1425,9 +1425,9 @@ I18N.zh = {
             "No wrap": "无换行",
             "Soft wrap": "软换行",
             "Add file": "添加文件",
-            "Create secret gist": "创建私有片段",
-            "Secret gists are hidden from search engines but visible to anyone you give the URL.": "私有片段搜索引擎是搜不到的，但是您可以分享您的 url 给他们。",
-            "Create public gist": "创建公共片段",
+            "Create secret gist": "创建私有代码段",
+            "Secret gists are hidden from search engines but visible to anyone you give the URL.": "私有代码段搜索引擎是搜不到的，但是你可以分享你的 url 给他们。",
+            "Create public gist": "创建公共代码段",
 
             // All gists 页面
             "Sort:": "排序:",
@@ -1450,20 +1450,20 @@ I18N.zh = {
             // View 代码 页面
             "Edit": "编辑",
             "Delete": "删除",
-            "Star": "点赞",
-            "Unstar": "取消点赞",
+            "Star": "加星",
+            "Unstar": "取消加星",
             "User actions": "用户操作",
             "Report abuse": "举报该用户",
 
             "Code": "代码",
             "Revisions": "修订",
-            "Stars": "被赞",
+            "Stars": "被加星",
             "Forks": "派生",
 
             // 代码页面
-            "What would you like to do?": "您想做什么？",
-            "Embed this gist in your website.": "Embed 可嵌入到您的网页中。",
-            "Copy sharable URL for this gist.": "复制 URL 共享这个片段。",
+            "What would you like to do?": "你想做什么？",
+            "Embed this gist in your website.": "Embed 可嵌入到你的网页中。",
+            "Copy sharable URL for this gist.": "复制 URL 共享这个代码段。",
             "Clone with Git or checkout with SVN using the repository's web address.": "Git 克隆或 SVN 检出该仓库所使用的 web 地址。",
             "Clone with an SSH key and passphrase from your GitHub settings.": "使用 SSH 密钥克隆",
             "Learn more about clone URLs": "更多的克隆方法",
@@ -1478,25 +1478,25 @@ I18N.zh = {
             "Unified": "同屏",
             "Split": "分屏",
             "created": "创建",
-            "this gist": "该片段于",
+            "this gist": "该代码段于",
 
             // 编辑代码页面
             "Editing": "编辑",
             "Make secret": "转为私有",
             "Cancel": "取消",
-            "Update public gist": "更新片段",
+            "Update public gist": "更新代码段",
 
-            // 已赞页面
-            "Starred": "赞了",
-            "You don’t have any starred gists yet.": "您还没有赞过任何片段。",
+            // 已加星页面
+            "Starred": "加星了",
+            "You don’t have any starred gists yet.": "你还没有加星过任何代码段。",
         },
         "regexp": [ // 正则翻译
             [/View ([^ ]+) on GitHub/, "查看 $1 的 GitHub"],
             [/(\d+) files?/, "$1 文件"],
             [/(\d+) forks?/, "$1 派生"],
             [/(\d+) comments?/, "$1 评论"],
-            [/(\d+) stars?/, "$1 赞"],
-            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到您的电脑。"],
+            [/(\d+) stars?/, "$1 加星"],
+            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到你的电脑。"],
         ],
     },
 
@@ -1504,11 +1504,11 @@ I18N.zh = {
         "static": { // 静态翻译
             "Authorize application": "应用授权",
             "by": "的",
-            "would like permission to access your account": "想访问您的帐户",
+            "would like permission to access your account": "想访问你的帐户",
             "Review permissions": "查看权限",
             "Public data only": "仅公共数据",
-            "Limited access to your public data": "仅限访问您的公共数据",
-            "This application will be able to identify you and read public information.": "此应用程序将能识别您的身份和读取您的公共信息。",
+            "Limited access to your public data": "仅限访问你的公共数据",
+            "This application will be able to identify you and read public information.": "此应用程序将能识别你的身份和读取你的公共信息。",
             "Learn more": "更多",
 
             "Visit application’s website": "访问应用官网",
