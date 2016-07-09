@@ -16,10 +16,12 @@ I18N.conf = {
      * 拉取请求 /pulls
      * 搜索页面 /search
      * 趋势页面 /trending
+     * 展示页面 /showcases
+     * 导入仓库 /new/import
      *
      * 未登录首页 /
      */
-    rePagePath: /\/(notifications|watching|stars|issues|search|pulls|trending|$)/,
+    rePagePath: /\/(notifications|watching|stars|issues|search|pulls|trending|showcases|$|new\/import)/,
 
     /**
      * 匹配 url 页面的正则
@@ -59,7 +61,11 @@ I18N.zh = {
             "Sign in": "登录",
             "Sign up": "注册",
 
+<<<<<<< HEAD
             "Search GitHub": "GitHub 一下,你就知道",
+=======
+            "Search GitHub": "GitHub 一下，你就知道",
+>>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             "This repository": "当前仓库",
             "Search": "搜索",
 
@@ -146,6 +152,8 @@ I18N.zh = {
             "Submit new issue": "提交新问题",
             "Comment on this commit": "提交",
             "Close and comment": "提交并关闭",
+            "Reopen and comment": "提交并重新打开",
+            "Reopen issue": "重新打开问题",
 
             // 公共动作词
             "Followers": "粉丝",
@@ -163,11 +171,14 @@ I18N.zh = {
             "Your email was verified.": "邮箱地址验证成功！",
         },
         "regexp": [ // 正则翻译 (公共区域正则会二次调用翻译，为了弥补部分翻译的情况)
+<<<<<<< HEAD
             // 仓库删除提示
             [/Your repository "([^"]+)"was successfully deleted\./, " \"$1\"仓库已被成功删除。"],
             // 邮箱验证提示
             [/An email containing verification instructions was sent to (.+)\./, "验证邮件已发送到 $1。"],
 
+=======
+>>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             /**
              * 匹配时间格式
              *
@@ -210,6 +221,12 @@ I18N.zh = {
 
                 return d + ' ' + dt[t] + '之前';
             }],
+
+            // 仓库删除提示
+            [/Your repository "([^"]+)"was successfully deleted\./, "您的 \"$1\"仓库已被成功删除。"],
+            // 邮箱验证提示
+            [/An email containing verification instructions was sent to (.+)\./, "验证邮件已发送到 $1。"],
+            // 头像下面的注册信息
             [/Joined on/, "注册于"],
         ],
     },
@@ -300,8 +317,16 @@ I18N.zh = {
             "Public activity": "动态",
             "Edit profile": "修改设置",
             "Popular repositories": "流行的仓库",
+            "Pinned repositories": "固定的仓库",
+            "Customize your pinned repositories": "自定义您的固定仓库",
             "Repositories contributed to": "贡献过的仓库",
             "Contribution activity": "近期贡献信息",
+
+            "Select up to five public repositories you'd like to show.": "最多可选择五个要显示的公共仓库。",
+            "Show:": "显示:",
+            "Your repositories": "您的仓库",
+            "Repositories you contribute to": "您贡献过的仓库",
+            "Save pinned repositories": "保存固定仓库",
 
             "Jan": "1月",
             "Feb": "2月",
@@ -420,7 +445,10 @@ I18N.zh = {
             "personal email settings": "邮箱设置",
             "URL": "网站",
             "Company": "公司",
+            "You can": "您可以",
+            "other users and organizations to link to them.": "其他用户和组织链接到他们。",
             "Location": "地址",
+            "your company's GitHub organization to link it.": "贵公司和GitHub的组织联系起来。",
             "Update profile": "更新资料",
             "Profile updated successfully": "资料更新成功。",
 
@@ -635,6 +663,29 @@ I18N.zh = {
         ],
     },
 
+    "new/import": { // 导入仓库
+        "static": { // 静态翻译
+            // 第一页
+            "Import your project to GitHub": "导入您的项目到 GitHub",
+            "Import all the files, including the revision history, from another version control system.": "导入的所有文件，包括修订历史记录，从另一个版本控制系统。",
+            "Your old repository’s clone URL": "你的老仓库 URL 地址",
+            "Learn more about the types of": "仓库更多类型的帮助",
+            "supported VCS": "支持 VCS",
+            "Your new repository details": "新仓库描述",
+            "Owner": "所有者",
+            "Name": "仓库名",
+            "Your new repository will be": "新仓库将会",
+            "public": "公开",
+            ". In order to make this repository private, you’ll need to": "如果想使这个仓库转为私有的，你需要",
+            "upgrade your account": "升级帐户",
+            "Cancel": "取消",
+            "Begin import": "开始导入",
+            "Preparing import…": "准备导入…",
+        },
+        "regexp": [ // 正则翻译
+        ],
+    },
+
     "page-create-org": { // 新建组织
         "static": { // 静态翻译
         },
@@ -644,7 +695,20 @@ I18N.zh = {
 
     "vis-public": { // 仓库页
         "static": { // 静态翻译
+<<<<<<< HEAD
             "Where should we fork this repository?": "你想把该仓库派生到哪个角色下？",
+=======
+            // 导入仓库 第二页
+            "Preparing your new repository": "准备新的存储库",
+            "There is no need to keep this window open, we’ll email you when the import is done.": "没有必要在这个窗口傻等，当导入完成时，我们会向您发送电子邮件。",
+            "Detecting your project’s version control system…": "检测项目的版本控制系统…",
+            "Importing  commits and revision history…": "导入提交和历史版本…",
+            "Importing complete! Your new repository": "导入完成，您的新仓库",
+            "is ready.": "已经就绪。",
+
+            // 仓库页面
+            "Where should we fork this repository?": "您想把该仓库派生到哪个角色下？",
+>>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
 
             "Code": "代码",
             "Pulse": "统计",
@@ -723,6 +787,36 @@ I18N.zh = {
             "You know": "你关注的",
 
             // issues 页面
+            "opened this": "打开这个",
+            "Issue": "问题",
+            "added a commit that closed this issue": "在提交时关闭了这个问题",
+            "closed this in": "关闭于",
+            "added the": "添加了",
+            "added": "添加",
+            "and removed": "并移除了",
+            "label": "标签",
+            "labels": "标签",
+            "self-assigned this": "自己受理了该问题",
+            "edited": "编辑的",
+            "added this to the": "添加到",
+            "milestone": "里程碑",
+            "closed this": "关闭了",
+            "reopened this": "重新打开了",
+            "This was referenced": "这是引用",
+
+            "No description provided.": "没有具体描述。",
+            "Add your reaction": "添加您的表情",
+            "Pick your reaction": "选择您的表情",
+            "Leave a comment": "发表评论",
+            "Milestone": "里程碑",
+            "Unsubscribe": "取消订阅",
+            "Attach files by dragging & dropping,": "拖拽添加附件，",
+            "selecting them": "或选择文件，",
+            ", or pasting from the clipboard.": "或复制黏贴内容。",
+            "Styling with Markdown is supported": "支持 Markdown 功能。",
+            "Close issue": "关闭问题",
+            "Comment": "提交",
+
             "Filters": "筛选",
             "Open issues and pull requests": "开放的问题或拉取请求",
             "Your issues": "你提出的问题",
@@ -732,9 +826,15 @@ I18N.zh = {
             "View advanced search syntax": "查看高级搜索语法",
 
             "Labels": "标签",
+            "None yet": "暂无",
             "Milestones": "里程碑",
+            "No milestone": "无里程碑",
             "Author": "作者",
-            "Assignee": "代理人",
+            "Assignee": "受理人",
+            "Assignees": "受理人",
+            "No one—": "无人 - ",
+            "assign yourself": " 受理自己",
+            "No one assigned": "无人受理",
             "Sort": "排序",
 
             "Filter by author": "筛选用户",
@@ -874,10 +974,19 @@ I18N.zh = {
             "You must select at least one option": "你至少要选择一个选项。",
 
             "GitHub Pages": "GitHub 项目演示页面",
+<<<<<<< HEAD
             "Your site is published at": "你的演示地址为:",
             "Your site is ready to be published at": "你的演示地址为:",
             "Update your site": "更新你的站点",
             "To update your site, push your HTML or": "更新你的站点，可以直接推送 html 或者使用",
+=======
+            "Your site is published at": "您的演示地址为:",
+            "Your site is ready to be published at": "您的演示地址为:",
+            "Custom domain": "自定义域名",
+            "Custom domains allow you to serve your site from a domain other than": "自定义域名也许你用其他域名访问",
+            "Update your site": "更新您的站点",
+            "To update your site, push your HTML or": "更新您的站点，可以直接推送 html 或者使用",
+>>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             "updates to your": "更新到",
             "branch. Read the": "分支。详情请阅读",
             "Pages help article": "演示页面帮助",
@@ -885,6 +994,10 @@ I18N.zh = {
             "Overwrite site": "覆盖现有站点",
             "Replace your existing site by using our automatic page generator. Author your content in our Markdown editor, select a theme, then publish.": "通过使用我们的自动页面生成器替换现有的网站。你可以在我们的 Markdown 编辑器，选择一个主题，然后发布。",
             "Launch automatic page generator": "启动自动生成器",
+            "Enforce HTTPS": "强制 HTTPS",
+            "— Unavailable for your site because you have a custom domain configured (": "- 无法为您的网站开启，因为您配置了一个自定义域名 (",
+            "HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.": "HTTPS 提供了一层加密，防止他人偷窥或篡改的交通到您的网站。",
+            "When HTTPS is enforced, your site will only be served over HTTPS.": "当开启强制 HTTPS 后，您的网站将只能通过 HTTPS 访问。",
 
             "Danger Zone": "危险区",
             "Make this repository private": "将该仓库设为私有仓库",
@@ -931,6 +1044,7 @@ I18N.zh = {
             "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，标签，提交范围和时间范围。在同一仓库和派生的仓库。",
             "Example comparisons": "比较例子",
 
+<<<<<<< HEAD
             // issues 页面
             "No description provided.": "没有具体描述。",
             "Add your reaction": "添加你的表情",
@@ -945,6 +1059,8 @@ I18N.zh = {
             "Close issue": "关闭问题",
             "Comment": "提交",
 
+=======
+>>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             // 新建空仓库
             "Quick setup": "快速安装",
             "— if you’ve done this kind of thing before": "- 如果你以前做过这样的事",
@@ -1047,17 +1163,24 @@ I18N.zh = {
         },
         "regexp": [ // 正则翻译
             [/HTTPS\s+(recommended)/, "HTTPS (推荐)"],
+<<<<<<< HEAD
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到你的电脑。"],
             [/(\d+) Open/, "$1 个开放的"],
             [/(\d+) Closed/, "$1 个关闭的"],
+=======
+            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到您的电脑。"],
+            [/([\d,]+) Open/, "$1 个开放的"],
+            [/([\d,]+) Closed/, "$1 个关闭的"],
+>>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             [/View all issues opened by (.+)/, "查看所有 $1 的问题"],
             [/Welcome to the ([^ ]+) wiki!/, "欢迎访问 $1 的 wiki"],
-            [/(\d+) participants?/, "$1 参与者"],
+            [/([\d,]+) participants?/, "$1 参与者"],
             [/Commits on (.+)/, "提交于 $1"],
             // bug [/from (.+)/, "从 $1"],
-            [/wants to merge (\d+) commits? into/, "需要合并 $1 次提交到"],
-            [/(\d+) commits?/, "$1 次提交"],
+            [/wants to merge ([\d,]+) commits? into/, "需要合并 $1 次提交到"],
+            [/([\d,]+) commits?/, "$1 次提交"],
             [/to ([^\n]+)[\n\s]+since this release/, "到 $1 分支在此发布中。"],
+            [/· ([\d,]+) comments?/, "$1 次提交"]
         ],
     },
 
@@ -1283,6 +1406,14 @@ I18N.zh = {
             [/([\d,]+) stars this week([^B]+)[\w ]+/, "本周 $1 加星$2创建者"],
             [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 加星$2创建者"],
         ],
+    },
+
+    "showcases": { // 展示页面
+        "static": { // 静态翻译
+            "Open source showcases": "开源展示",
+            "Browse popular repositories based on the topic that interests you most.": "浏览热门仓库基于你最感兴趣的话题。",
+            "Search showcases": "搜索展示",
+        },
     },
 
 
