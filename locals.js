@@ -26,7 +26,7 @@ I18N.conf = {
     /**
      * 匹配 url 页面的正则
      *
-     * 代码段页面 gist
+     * 代码片段页面 gist
      */
     rePageUrl: /(gist)\.github.com/,
 
@@ -72,7 +72,7 @@ I18N.zh = {
             "Pull Requests": "拉取请求",
             "Pull requests": "拉取请求",
             "Issues": "问题",
-            "Gist": "代码段",
+            "Gist": "代码片段",
             "Your dashboard": "返回首页",
 
             "You have no unread notifications": "当前没有未读通知",
@@ -223,7 +223,7 @@ I18N.zh = {
             }],
 
             // 仓库删除提示
-            [/Your repository "([^"]+)"was successfully deleted\./, "您的 \"$1\"仓库已被成功删除。"],
+            [/Your repository "([^"]+)"was successfully deleted\./, "这个 \"$1\"仓库已被成功删除。"],
             // 邮箱验证提示
             [/An email containing verification instructions was sent to (.+)\./, "验证邮件已发送到 $1。"],
             // 头像下面的注册信息
@@ -318,13 +318,13 @@ I18N.zh = {
             "Edit profile": "修改设置",
             "Popular repositories": "流行的仓库",
             "Pinned repositories": "固定的仓库",
-            "Customize your pinned repositories": "自定义您的固定仓库",
+            "Customize your pinned repositories": "自定义我的固定仓库",
             "Repositories contributed to": "贡献过的仓库",
             "Contribution activity": "近期贡献信息",
 
             "Select up to five public repositories you'd like to show.": "最多可选择五个要显示的公共仓库。",
             "Show:": "显示:",
-            "Your repositories": "您的仓库",
+            "Your repositories": "我的仓库",
             "Repositories you contribute to": "您贡献过的仓库",
             "Save pinned repositories": "保存固定仓库",
 
@@ -666,7 +666,7 @@ I18N.zh = {
     "new/import": { // 导入仓库
         "static": { // 静态翻译
             // 第一页
-            "Import your project to GitHub": "导入您的项目到 GitHub",
+            "Import your project to GitHub": "导入我的项目到 GitHub",
             "Import all the files, including the revision history, from another version control system.": "导入的所有文件，包括修订历史记录，从另一个版本控制系统。",
             "Your old repository’s clone URL": "你的老仓库 URL 地址",
             "Learn more about the types of": "仓库更多类型的帮助",
@@ -703,7 +703,7 @@ I18N.zh = {
             "There is no need to keep this window open, we’ll email you when the import is done.": "没有必要在这个窗口傻等，当导入完成时，我们会向您发送电子邮件。",
             "Detecting your project’s version control system…": "检测项目的版本控制系统…",
             "Importing  commits and revision history…": "导入提交和历史版本…",
-            "Importing complete! Your new repository": "导入完成，您的新仓库",
+            "Importing complete! Your new repository": "导入完成，我的新仓库",
             "is ready.": "已经就绪。",
 
             // 仓库页面
@@ -805,8 +805,8 @@ I18N.zh = {
             "This was referenced": "这是引用",
 
             "No description provided.": "没有具体描述。",
-            "Add your reaction": "添加您的表情",
-            "Pick your reaction": "选择您的表情",
+            "Add your reaction": "添加我的表情",
+            "Pick your reaction": "选择我的表情",
             "Leave a comment": "发表评论",
             "Milestone": "里程碑",
             "Unsubscribe": "取消订阅",
@@ -1168,7 +1168,7 @@ I18N.zh = {
             [/(\d+) Open/, "$1 个开放的"],
             [/(\d+) Closed/, "$1 个关闭的"],
 =======
-            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到您的电脑。"],
+            [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到你的电脑。"],
             [/([\d,]+) Open/, "$1 个开放的"],
             [/([\d,]+) Closed/, "$1 个关闭的"],
 >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
@@ -1533,19 +1533,19 @@ I18N.zh = {
     },
 
 
-    "gist": { // 代码段页面
+    "gist": { // 代码片段页面
         "static": { // 静态翻译
-            "Search…": "搜索代码代码段…",
-            "All gists": "所有代码段",
-            "New gist": "新建代码段",
-            "Your gists": "我的代码段",
-            "Starred gists": "已加星代码段",
+            "Search…": "搜索代码代码片段…",
+            "All gists": "所有代码片段",
+            "New gist": "新建代码片段",
+            "Your gists": "我的代码片段",
+            "Starred gists": "已加星代码片段",
             "Your GitHub profile": "设置",
 
             "View profile and more": "查看更多信息",
-            "See all of your gists": "查看我的所有代码段",
-            "Instantly share code, notes, and snippets.": "即时分享你的代码，笔记，代码段，以及灵感。",
-            "Gist description…": "代码段描述",
+            "See all of your gists": "查看我的所有代码片段",
+            "Instantly share code, notes, and snippets.": "即时分享你的代码，笔记，代码片段，以及灵感。",
+            "Gist description…": "代码片段描述",
 
             "Filename including extension…": "文件名 (包括扩展名)",
             "Indent mode": "缩进模式",
@@ -1556,9 +1556,9 @@ I18N.zh = {
             "No wrap": "无换行",
             "Soft wrap": "软换行",
             "Add file": "添加文件",
-            "Create secret gist": "创建私有代码段",
-            "Secret gists are hidden from search engines but visible to anyone you give the URL.": "私有代码段搜索引擎是搜不到的，但是你可以分享你的 url 给他们。",
-            "Create public gist": "创建公共代码段",
+            "Create secret gist": "创建私有代码片段",
+            "Secret gists are hidden from search engines but visible to anyone you give the URL.": "私有代码片段搜索引擎是搜不到的，但是你可以分享你的 url 给他们。",
+            "Create public gist": "创建公共代码片段",
 
             // All gists 页面
             "Sort:": "排序:",
@@ -1594,7 +1594,7 @@ I18N.zh = {
             // 代码页面
             "What would you like to do?": "你想做什么？",
             "Embed this gist in your website.": "Embed 可嵌入到你的网页中。",
-            "Copy sharable URL for this gist.": "复制 URL 共享这个代码段。",
+            "Copy sharable URL for this gist.": "复制 URL 共享这个代码片段。",
             "Clone with Git or checkout with SVN using the repository's web address.": "Git 克隆或 SVN 检出该仓库所使用的 web 地址。",
             "Clone with an SSH key and passphrase from your GitHub settings.": "使用 SSH 密钥克隆",
             "Learn more about clone URLs": "更多的克隆方法",
@@ -1609,17 +1609,17 @@ I18N.zh = {
             "Unified": "同屏",
             "Split": "分屏",
             "created": "创建",
-            "this gist": "该代码段于",
+            "this gist": "该代码片段于",
 
             // 编辑代码页面
             "Editing": "编辑",
             "Make secret": "转为私有",
             "Cancel": "取消",
-            "Update public gist": "更新代码段",
+            "Update public gist": "更新代码片段",
 
             // 已加星页面
             "Starred": "加星了",
-            "You don’t have any starred gists yet.": "你还没有加星过任何代码段。",
+            "You don’t have any starred gists yet.": "你还没有加星过任何代码片段。",
         },
         "regexp": [ // 正则翻译
             [/View ([^ ]+) on GitHub/, "查看 $1 的 GitHub"],
