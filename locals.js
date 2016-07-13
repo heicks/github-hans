@@ -61,11 +61,11 @@ I18N.zh = {
             "Sign in": "登录",
             "Sign up": "注册",
 
-<<<<<<< HEAD
+// <<<<<<< HEAD
             "Search GitHub": "GitHub 一下,你就知道",
-=======
+// =======
             "Search GitHub": "GitHub 一下，你就知道",
->>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
+// >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             "This repository": "当前仓库",
             "Search": "搜索",
 
@@ -171,14 +171,14 @@ I18N.zh = {
             "Your email was verified.": "邮箱地址验证成功！",
         },
         "regexp": [ // 正则翻译 (公共区域正则会二次调用翻译，为了弥补部分翻译的情况)
-<<<<<<< HEAD
+// <<<<<<< HEAD
             // 仓库删除提示
             [/Your repository "([^"]+)"was successfully deleted\./, " \"$1\"仓库已被成功删除。"],
             // 邮箱验证提示
             [/An email containing verification instructions was sent to (.+)\./, "验证邮件已发送到 $1。"],
 
-=======
->>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
+// =======
+// >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             /**
              * 匹配时间格式
              *
@@ -695,9 +695,9 @@ I18N.zh = {
 
     "vis-public": { // 仓库页
         "static": { // 静态翻译
-<<<<<<< HEAD
+// <<<<<<< HEAD
             "Where should we fork this repository?": "你想把该仓库派生到哪个角色下？",
-=======
+// =======
             // 导入仓库 第二页
             "Preparing your new repository": "准备新的存储库",
             "There is no need to keep this window open, we’ll email you when the import is done.": "没有必要在这个窗口傻等，当导入完成时，我们会向您发送电子邮件。",
@@ -708,7 +708,7 @@ I18N.zh = {
 
             // 仓库页面
             "Where should we fork this repository?": "您想把该仓库派生到哪个角色下？",
->>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
+// >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
 
             "Code": "代码",
             "Pulse": "统计",
@@ -974,19 +974,19 @@ I18N.zh = {
             "You must select at least one option": "你至少要选择一个选项。",
 
             "GitHub Pages": "GitHub 项目演示页面",
-<<<<<<< HEAD
+// <<<<<<< HEAD
             "Your site is published at": "你的演示地址为:",
             "Your site is ready to be published at": "你的演示地址为:",
             "Update your site": "更新你的站点",
             "To update your site, push your HTML or": "更新你的站点，可以直接推送 html 或者使用",
-=======
+// =======
             "Your site is published at": "您的演示地址为:",
             "Your site is ready to be published at": "您的演示地址为:",
             "Custom domain": "自定义域名",
             "Custom domains allow you to serve your site from a domain other than": "自定义域名也许你用其他域名访问",
             "Update your site": "更新您的站点",
             "To update your site, push your HTML or": "更新您的站点，可以直接推送 html 或者使用",
->>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
+// >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             "updates to your": "更新到",
             "branch. Read the": "分支。详情请阅读",
             "Pages help article": "演示页面帮助",
@@ -1044,7 +1044,7 @@ I18N.zh = {
             "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，标签，提交范围和时间范围。在同一仓库和派生的仓库。",
             "Example comparisons": "比较例子",
 
-<<<<<<< HEAD
+// <<<<<<< HEAD
             // issues 页面
             "No description provided.": "没有具体描述。",
             "Add your reaction": "添加你的表情",
@@ -1059,8 +1059,8 @@ I18N.zh = {
             "Close issue": "关闭问题",
             "Comment": "提交",
 
-=======
->>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
+// =======
+// >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             // 新建空仓库
             "Quick setup": "快速安装",
             "— if you’ve done this kind of thing before": "- 如果你以前做过这样的事",
@@ -1163,15 +1163,15 @@ I18N.zh = {
         },
         "regexp": [ // 正则翻译
             [/HTTPS\s+(recommended)/, "HTTPS (推荐)"],
-<<<<<<< HEAD
+// <<<<<<< HEAD
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到你的电脑。"],
             [/(\d+) Open/, "$1 个开放的"],
             [/(\d+) Closed/, "$1 个关闭的"],
-=======
+// =======
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，保存 $1 到你的电脑。"],
             [/([\d,]+) Open/, "$1 个开放的"],
             [/([\d,]+) Closed/, "$1 个关闭的"],
->>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
+// >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
             [/View all issues opened by (.+)/, "查看所有 $1 的问题"],
             [/Welcome to the ([^ ]+) wiki!/, "欢迎访问 $1 的 wiki"],
             [/([\d,]+) participants?/, "$1 参与者"],
