@@ -62,7 +62,7 @@ I18N.zh = {
             "Sign up": "注册",
 
 // <<<<<<< HEAD
-            "Search GitHub": "GitHub 一下,你就知道",
+//            "Search GitHub": "GitHub 一下,你就知道",
 // =======
             "Search GitHub": "GitHub 一下，你就知道",
 // >>>>>>> 3910983aa4c2e3e2ccaa9ec78b1515fabb50b1d4
